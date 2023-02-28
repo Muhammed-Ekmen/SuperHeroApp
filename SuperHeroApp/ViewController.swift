@@ -47,11 +47,11 @@ first of all, we need to ask What is the CollectionView. In the IOS, there are m
     return cell
  }
  
- SEQUE
+ SEGUE
  
- * it is kind of router. the usage is click the related screen and viewController icon. After that, drag the what screen you want to show. When you have done this, there would be open alert and you should select the
-    show choice. After that, click the arrow of route and give the idenfier from left side menu. that identifier is too much important when you want to use that seque.
+ * it is kind of router. the usage is click the related screen and viewController icon. After that, drag the what screen you want to show. When you have done this, there would be open alert and you should select the show choice. After that, click the arrow of route and give the idenfier from left side menu. that identifier is too much important when you want to use that seque.
  
+ * segue has a few properties. PerformSegue function we can go to other screens. Also, when we wants to send any parameter we need to prepare method. reach the viewController which what you wants to go screen, and use its variables etc.
  
  STEPS:
     1 on the storyboard, add  as screen that collectionViewController from library.
