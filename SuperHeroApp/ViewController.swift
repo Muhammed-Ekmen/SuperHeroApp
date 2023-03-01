@@ -11,6 +11,7 @@ In this app,we will create quite big appliucation. There are 2 screen and this s
     - Seque
     - Cell
     - NavigationController
+    - Constraints
 first of all, we need to ask What is the CollectionView. In the IOS, there are many views. CollectionView,TableView etc. So, collectionView is similar to your Iphone gallery photo template.
 
 
@@ -52,7 +53,18 @@ first of all, we need to ask What is the CollectionView. In the IOS, there are m
  * it is kind of router. the usage is click the related screen and viewController icon. After that, drag the what screen you want to show. When you have done this, there would be open alert and you should select the show choice. After that, click the arrow of route and give the idenfier from left side menu. that identifier is too much important when you want to use that seque.
  
  * segue has a few properties. PerformSegue function we can go to other screens. Also, when we wants to send any parameter we need to prepare method. reach the viewController which what you wants to go screen, and use its variables etc.
- 
+
+
+CONSTRAINTS
+
+* it is very import for responsice design. You can create more effective layouts with contraints. So, how to use it?
+  while any UI component selected, click the constarints icon at the bottom tab on storyboard. There are 4 way arrow and fields that you can 
+  enter what you want measure. All these measures adjusting according to the most close neighbour.
+
+* if you noticed that there are width and height property. That is constant sizes of any component. you can use it when you wants to any image example
+  always seems with 300*200 sizes. But it wouldn't be always good. Be caraful when you use it.
+
+
  STEPS:
     1 on the storyboard, add  as screen that collectionViewController from library.
     2 on the stroyboard, add the navigatorController and detect the init screen.
